@@ -1,0 +1,12 @@
+build
+output
+*.nds
+*.sav
+*.o
+.deps
+.sav
+.pyc
+.map
+.narc
+.dll
+__pycache__/
