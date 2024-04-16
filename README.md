@@ -1,5 +1,5 @@
 # White 2 EV&IV View Item
-![Screenshots1](https://github.com/Bubble791/Platinum-Hack/blob/main/Screenshots/test__14435.png)
+![Screenshots1](https://github.com/Bubble791/W2EvIvScreen/blob/main/png/w2.png)
 
 ## Setup
 1. Add `armips` to folder
