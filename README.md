@@ -1,3 +1,6 @@
+# !!!!!! WARNNING !!!!!!!
+# This repository has not test, there may be a problem
+
 # White 2 EV&IV View Item
 ![Screenshots1](https://github.com/Bubble791/W2EvIvScreen/blob/main/png/w2.png)
 
@@ -20,3 +23,4 @@
 
 ## tips
 if you changed code, find `PokePadProcData` in w2.map and write to `DLL/field_item_use.cpp ` line 63 `#define EV_IV_SCREEN_PROC (0x021AA800)`
+this new item use `PAL PAD` key item register byte
