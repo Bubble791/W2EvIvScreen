@@ -1,3 +1,6 @@
+# !!!!!! WARNNING !!!!!!!
+# This repository has not been tested, there may be a problem
+
 # White 2 EV&IV View Item
 ![Screenshots1](https://github.com/Bubble791/W2EvIvScreen/blob/main/png/w2.png)
 
