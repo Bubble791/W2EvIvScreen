@@ -22,6 +22,8 @@ all:
 
 	$(gcc) $(c_flags) -I DLL/include -I DLL/include/swan -c DLL/field_item_use.cpp -o build/field_item_use.o
 	$(as) $(as_flags) -c DLL/item_expansion.s -o build/item_expansion.o
-	$(ld) -o output/eviv.dll -r build/field_item_use.o build/item_expansion.o
+	$(ld) -o output/eviv.elf -r build/field_item_use.o build/item_expansion.o
+
+	objdump -t build/PokePad_out.o > w2.map
 
 	$(armips) PokePad/PokePad.s
