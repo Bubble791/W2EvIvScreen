@@ -17,3 +17,6 @@
 
 7. Refer to tutorial inject `output/eviv.elf` into ROM
     * ```https://ds-pokemon-hacking.github.io/docs/generation-v/guides/bw_b2w2-code_injection/```
+
+## tips
+if you changed code, find `PokePadProcData` in w2.map and write to `DLL/field_item_use.cpp ` line 63 `#define EV_IV_SCREEN_PROC (0x021AA800)`
